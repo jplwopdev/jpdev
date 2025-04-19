@@ -7,55 +7,82 @@
     <title>Jpdev</title>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
   </head>
-  <body class="text-white" style="background-color: rgb(1, 27, 56); font-family: Plus Jakarta Sans;">
-    <header class="flex justify-between bg-sky-950 pt-5 p-4 h-[100%] w-[100%] font-bold" style="background-color: rgb(2, 23, 32);">
-      <h1 class="pl-5 text-[20px] flex gap-[7px]">
-        João <span><img src="./src/assets/top_icon.png" alt="Icone de Programação" class="w-[30px] h-[30px]"></span> P
-      </h1>
-      <div class="flex gap-9 pr-9 text-[15px]">
-        <a href="#home" class="hover:text-red-700 transition-all">Home</a>
-        <a href="#about" class="hover:text-red-700 transition-all">About</a>
-        <a href="#" class="hover:text-red-700 transition-all">Skills</a>
-        <a href="#" class="hover:text-red-700 transition-all">Projects</a>
-        <a href="#" class="hover:text-red-700 transition-all">Contact</a>
+  <body class="text-white" style="background-color: rgb(0, 10, 26); font-family: Plus Jakarta Sans;">
+
+    <header class="fixed top-0 left-0 right-0 z-50 pt-5 p-4 w-full font-bold" style="background-color: rgb(2, 22, 31);">
+      <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+        <h1 class="text-[20px] flex gap-[7px] mb-4 md:mb-0 pl-5 md:pl-0">
+          João <span><img src="./src/assets/top_icon.png" alt="Icone de Programação" class="w-[30px] h-[30px]"></span> P
+        </h1>
+        <nav class="flex flex-wrap justify-center gap-4.5 md:gap-16 text-[16px] pr-0 md:pr-9">
+          <a href="#home" class="hover:text-red-700 transition-all">Inicio</a>
+          <a href="#about" class="hover:text-red-700 transition-all">Sobre Mim</a>
+          <a href="#skills" class="hover:text-red-700 transition-all">Habilidades</a>
+          <a href="#" class="hover:text-red-700 transition-all">Projetos</a>
+          <a href="#" class="hover:text-red-700 transition-all">Contatos</a>
+        </nav>
       </div>
     </header>
 
-    <section id="home" class="flex justify-center items-center pt-15 gap-55">
-      <div class="ml-25">
+    <section id="home" class="flex flex-col-reverse justify-center items-center pt-36 gap-14 pb-9 md:flex-row">
+      <div class="ml-6 md:ml-25">
         <h1 class="text-5xl font-extrabold leading-[1.2]">
-          OLÁ! EU SOU <br> <span class="">JOÃO PEDRO</span>
+          OLÁ! EU SOU <br> <span>JOÃO PEDRO</span>
         </h1>
         <h1 class="text-gray-400 pt-2 font-semibold text-[18px]">
           Futuro Desenvolvedor FullStack
         </h1>
         <h1 class="pt-6 font-medium text-[16px]">
-          Hi, my name is João Pedro!<br>I'm a student in Computer Networks and an aspiring web developer.<br>looking for opportunities in the development area.<br> I'm currently looking for internship opportunities and and open to learning from opportunities.
+          Oi, meu nome é João Pedro!<br>Sou estudante de Redes de Computadores e aspirante a desenvolvedor web.<br>Procurando oportunidades na área de desenvolvimento.<br>Atualmente estou procurando oportunidades de estágio e aberto a aprender com elas.
         </h1>
         <div class="bg-red-700 w-[140px] h-[60px] rounded-[15px] gap-3 justify-center flex items-center mt-5 hover:cursor-pointer hover:bg-red-800 transition-all">
-          <a href="" class="items-center flex font-semibold">
+          <a href="#" class="items-center flex font-semibold">
             Contact me
           </a>
-          <img src="./src/assets/arrow_icon.png" alt="arrow_icon" class="w-[25px]">
+          <img src="./src/assets/arrow_icon.png" alt="arrow_icon" class="w-[25px] md:w-[20px]">
         </div>
       </div>
-      <div class="justify-center">
-        <img src="./src/assets/WhatsApp Image 2025-03-26 at 20.40.34_0b48d65c.jpg" alt="Foto de perfil João Pedro" class="w-70 h-70 rounded-[50%] mr-48 ">
+    
+      <div class="flex justify-center">
+        <img 
+        src="./src/assets/WhatsApp Image 2025-03-26 at 20.40.34_0b48d65c.jpg" alt="Foto de perfil João Pedro" class="w-80 h-80 rounded-full md:mr-12 lg:mr-48">
+      </div>
+    </section>
+    
+    <section id="about" class="flex flex-col items-center justify-center text-center pt-28 md:pt-44 px-4 md:px-0 pb-9">
+      <div>
+        <h1 class="font-extrabold text-3xl md:text-[40px]">
+          SOBRE MIM
+        </h1>
+      </div>
+      <div class="pt-7 max-w-4xl">
+        <p class="text-base md:text-[17px] pt-5 md:pt-9 px-4 md:px-48 font-medium">
+          Olá, meu nome é <span class="text-red-800">João Pedro</span>! Sou estudante do curso técnico em Redes de Computadores na EEEP Leonel de Moura Brizola e estou me preparando para atuar como desenvolvedor. Tenho conhecimento tanto em front-end como em back-end e estou sempre buscando aprender mais. Criei interesse por tecnologia desde cedo, e foi essa curiosidade que despertou em mim a vontade de trabalhar com desenvolvimento, criando soluções modernas, responsivas e com foco em boas práticas de código.
+        </p>
       </div>
     </section>
 
-    <section id="about" class="flex flex-col justify-center text-center pt-80">
+    <section id="skills" class="flex flex-col items-center text-center pt-28 md:pt-44 px-4 md:px-0 pb-9">
       <div>
-        <h1 class="flex items-center justify-center font-extrabold text-[40px] underline-">
-          ABOUT ME
+        <h1 class="font-extrabold text-3xl md:text-[40px] pb-12">
+          HABILIDADES
         </h1>
       </div>
-      <div class="pt-7">
-        <h1 class="text-[17px] pt-9 p-48 font-medium">
-          Olá, meu nome é <span class="text-red-800">João Pedro</span>! Sou estudante do curso técnico em Redes de Computadores na EEEP Leonel de Moura Brizola e estou me preparando para atuar como desenvolvedor. Tenho conhecimento tanto em front-end como em back-end e estou sempre buscando aprender mais por conta própria. Me interesso por tecnologia desde cedo, e foi essa curiosidade que despertou em mim a vontade de trabalhar com desenvolvimento web, criando soluções modernas, responsivas e com foco em boas práticas de código.
-        </h1>
+      <div class="pt-7 max-w-4xl w-full">
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-8 gap-6 justify-items-center">
+          <a href="https://www.w3schools.com/html/" target="_blank" rel="noopener noreferrer"><img src="https://skillicons.dev/icons?i=html" alt="HTML" class="hover:scale-110 transition-all duration-300 w-16 md:w-20 lg:w-24"/></a>
+          <a href="https://www.w3schools.com/css/" target="_blank" rel="noopener noreferrer"><img src="https://skillicons.dev/icons?i=css" alt="CSS" class="hover:scale-110 transition-all duration-300 w-16 md:w-20 lg:w-24"/></a>
+          <a href="https://www.w3schools.com/js/" target="_blank" rel="noopener noreferrer"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript" class="hover:scale-110 transition-all duration-300 w-16 md:w-20 lg:w-24"/></a>
+          <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer"><img src="https://skillicons.dev/icons?i=tailwindcss" alt="Tailwind CSS" class="hover:scale-110 transition-all duration-300 w-16 md:w-20 lg:w-24"/></a>
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" class="hover:scale-110 transition-all duration-300 w-16 md:w-20 lg:w-24"/></a>
+          <a href="https://www.linux.org/" target="_blank" rel="noopener noreferrer"><img src="https://skillicons.dev/icons?i=linux" alt="Linux" class="hover:scale-110 transition-all duration-300 w-16 md:w-20 lg:w-24"/></a>
+          <a href="https://vercel.com/home" target="_blank" rel="noopener noreferrer"><img src="https://skillicons.dev/icons?i=vercel" alt="Vercel" class="hover:scale-110 transition-all duration-300 w-16 md:w-20 lg:w-24"/></a>
+          <a href="https://www.w3schools.com/git/default.asp" target="_blank" rel="noopener noreferrer"><img src="https://skillicons.dev/icons?i=git" alt="Git" class="hover:scale-110 transition-all duration-300 w-16 md:w-20 lg:w-24"/></a>
+        </div>
       </div>
     </section>
+
+    
 
     <script type="module" src="/src/main.js"></script>
   </body>
