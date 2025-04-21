@@ -9,7 +9,7 @@
   </head>
   <body class="text-white" style="background-color: rgb(0, 10, 26); font-family: Plus Jakarta Sans;">
 
-    <header class="fixed top-0 left-0 right-0 z-50 pt-5 p-4 w-full font-bold back" style="background-color: rgba(0, 10, 32, 0.960);">
+    <header class="backdrop-blur-md fixed top-0 left-0 right-0 z-50 pt-5 p-4 w-full font-bold" style="background-color: rgba(0, 10, 32, 0.920);">
       <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <h1 class="text-[20px] flex gap-[7px] mb-4 md:mb-0 pl-5 md:pl-0">
           João <span><img src="./src/assets/top_icon.png" alt="Icone de Programação" class="w-[30px] h-[30px]"></span> P
@@ -18,34 +18,32 @@
           <a href="#home" class="hover:text-red-700 transition-all">Inicio</a>
           <a href="#about" class="hover:text-red-700 transition-all">Sobre Mim</a>
           <a href="#skills" class="hover:text-red-700 transition-all">Habilidades</a>
-          <a href="#" class="hover:text-red-700 transition-all">Projetos</a>
+          <a href="#projects" class="hover:text-red-700 transition-all">Projetos</a>
           <a href="#" class="hover:text-red-700 transition-all">Contatos</a>
         </nav>
       </div>
     </header>
 
-    <section id="home" class="flex flex-col-reverse justify-center items-center pt-48 gap-80 pb-9 md:flex-row">
-      <div class="ml-6 md:ml-25">
-        <h1 class="text-5xl font-extrabold leading-[1.2]">
-          OLÁ! EU SOU <br> <span>JOÃO PEDRO</span>
+    <section id="home" class="flex flex-col-reverse justify-center items-center pt-40 gap-12 pb-9 md:flex-row md:pt-32 md:gap-24">
+      <div class="px-6 md:px-0 md:ml-12 lg:ml-24">
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-[1.2]">
+          OLÁ! EU SOU <br> <span class="text-primary">JOÃO PEDRO</span>
         </h1>
-        <h1 class="text-gray-400 pt-2 font-semibold text-[18px]">
+        <h2 class="text-gray-400 pt-2 font-semibold text-lg md:text-xl">
           Desenvolvedor FullStack
-        </h1>
-        <!-- <h1 class="pt-6 font-medium text-[16px]">
-          Oi, meu nome é João Pedro!<br>Sou estudante de Redes de Computadores e aspirante a desenvolvedor web.<br>Procurando oportunidades na área de desenvolvimento.<br>Atualmente estou procurando oportunidades de estágio e aberto a aprender com elas.
-        </h1> -->
-        <div class="bg-red-700 w-[140px] h-[60px] rounded-[15px] gap-3 justify-center flex items-center mt-5 hover:cursor-pointer hover:bg-red-800 transition-all">
-          <a href="#" class="items-center flex font-semibold">
+        </h2>
+        <div class="bg-red-700 w-36 h-16 rounded-xl flex justify-center items-center mt-6 hover:cursor-pointer hover:bg-red-800 transition-all">
+          <a href="#" class="flex items-center gap-2 font-semibold text-white">
             Contact me
+            <img src="./src/assets/arrow_icon.png" alt="arrow_icon" class="w-5 h-5">
           </a>
-          <img src="./src/assets/arrow_icon.png" alt="arrow_icon" class="w-[25px] md:w-[20px]">
         </div>
       </div>
-    
-      <div class="flex justify-center">
+      <div class="flex justify-center px-6 md:px-0">
         <img 
-        src="./src/assets/WhatsApp Image 2025-03-26 at 20.40.34_0b48d65c.jpg" alt="Foto de perfil João Pedro" class="w-80 h-80 rounded-full md:mr-12 lg:mr-48">
+          src="./src/assets/Profile Photo.jpeg" 
+          alt="Foto de perfil João Pedro" 
+          class="w-64 h-64 object-cover rounded-full border-4 border-primary shadow-lg md:w-72 md:h-72 lg:w-80 lg:h-80 md:mr-12 lg:mr-24">
       </div>
     </section>
     
@@ -70,19 +68,57 @@
       </div>
       <div class="pt-7 max-w-4xl w-full">
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-8 gap-6 justify-items-center">
-          <a href="https://www.w3schools.com/html/" target="_blank" rel="noopener noreferrer"><img src="https://skillicons.dev/icons?i=html" alt="HTML" class="hover:scale-110 transition-all duration-300 w-16 md:w-20 lg:w-24"/></a>
+          <a href="https://www.w3schools.com/html/" target="_blank" rel="noopener noreferrer"><img src="https://skillicons.dev/icons?i=html" alt="HTML" class="hover:scale-120 transition-all duration-300 w-16 md:w-20 lg:w-24"/></a>
           <a href="https://www.w3schools.com/css/" target="_blank" rel="noopener noreferrer"><img src="https://skillicons.dev/icons?i=css" alt="CSS" class="hover:scale-110 transition-all duration-300 w-16 md:w-20 lg:w-24"/></a>
           <a href="https://www.w3schools.com/js/" target="_blank" rel="noopener noreferrer"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript" class="hover:scale-110 transition-all duration-300 w-16 md:w-20 lg:w-24"/></a>
           <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer"><img src="https://skillicons.dev/icons?i=tailwindcss" alt="Tailwind CSS" class="hover:scale-110 transition-all duration-300 w-16 md:w-20 lg:w-24"/></a>
-          <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" class="hover:scale-110 transition-all duration-300 w-16 md:w-20 lg:w-24"/></a>
-          <a href="https://www.linux.org/" target="_blank" rel="noopener noreferrer"><img src="https://skillicons.dev/icons?i=linux" alt="Linux" class="hover:scale-110 transition-all duration-300 w-16 md:w-20 lg:w-24"/></a>
+          <a href="https://vite.dev/" target="_blank" rel="noopener noreferrer"><img src="https://skillicons.dev/icons?i=vite" alt="Vite" class="hover:scale-110 transition-all duration-300 w-16 md:w-20 lg:w-24"/></a>
           <a href="https://vercel.com/home" target="_blank" rel="noopener noreferrer"><img src="https://skillicons.dev/icons?i=vercel" alt="Vercel" class="hover:scale-110 transition-all duration-300 w-16 md:w-20 lg:w-24"/></a>
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" class="hover:scale-110 transition-all duration-300 w-16 md:w-20 lg:w-24"/></a>
           <a href="https://www.w3schools.com/git/default.asp" target="_blank" rel="noopener noreferrer"><img src="https://skillicons.dev/icons?i=git" alt="Git" class="hover:scale-110 transition-all duration-300 w-16 md:w-20 lg:w-24"/></a>
         </div>
       </div>
     </section>
 
-    
+    <section id="projects" class="flex flex-col items-center text-center pt-28 md:pt-44 px-4 md:px-0 pb-9">
+      <div>
+        <h1 class="font-extrabold text-3xl md:text-[40px] pb-12">
+          PROJETOS
+        </h1>
+      </div>
+      <div class="flex">
+        <button class="bg-gray-500">
+          <div>
+            <img src="./src/assets/HomePage.png" alt="" class="h-100 w-auto">
+          </div>
+          <div>
+            <h1>
+
+            </h1>
+          </div>
+        </button>
+        <button class="bg-gray-500">
+          <div>
+            <img src="./src/assets/HomePage.png" alt="" class="h-100 w-auto">
+          </div>
+          <div>
+            <h1>
+              
+            </h1>
+          </div>
+        </button>
+        <button class="bg-gray-500">
+          <div>
+            <img src="./src/assets/HomePage.png" alt="" class="h-100 w-auto">
+          </div>
+          <div>
+            <h1>
+              
+            </h1>
+          </div>
+        </button>
+      </div>
+    </section>
 
     <script type="module" src="/src/main.js"></script>
   </body>
