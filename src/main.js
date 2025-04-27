@@ -1,6 +1,6 @@
 import './style.css';
 
-const hamburgerBtn = document.getElementById('hamburger-btn');
+const hamburgerBtn = document.getElementById('hamburger-botao');
 const mobileMenu = document.getElementById('botao-mobile');
 const line1 = document.getElementById('line1');
 const line2 = document.getElementById('line2');
