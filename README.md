@@ -15,7 +15,7 @@ Bem-vindo ao repositório do meu portfólio! Este projeto foi desenvolvido para 
 
 ## 📸 Preview - Mobile
 <div>
-  <img src="Portfólio-Mobile.png" width="280" alt="Mayirla-portfolio">
+  <img src="Portfólio-Mobile.jpg" width="280" alt="Mayirla-portfolio">
 </div>
 
 ## 🛠️ Como Rodar Localmente
